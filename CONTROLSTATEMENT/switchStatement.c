@@ -24,7 +24,7 @@ int main()
         printf("product is %d ",a*b);
         break;
     case '/':
-        printf("division is %d ",a/b);
+        printf("division is  %d ",a/b);
         break;
 
     default:

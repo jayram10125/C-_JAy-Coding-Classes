@@ -3,9 +3,9 @@
 int main()
 {
     int n,m;
-    printf("initial : ");
+    printf("enter initial value : ");
     scanf("%d",&n);
-    printf("final : ");
+    printf("enter final  value : ");
     scanf("%d",&m);
     for(int i=n;i<=m;i++)
     {
@@ -14,6 +14,7 @@ int main()
             printf("%d ",i);
         }
     }
+
 
 
     return 0;

@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {   
-    int n;
+    int n , f=0 ;
     printf("Enter n : "); 
     scanf("%d",&n);
 
@@ -10,14 +10,23 @@ int main()
     {
         if(n%i==0)
         {
-            printf("not prime number\n");
+            f=1;
+            break;
+            
         }
-        else{
-            printf("prime\n");
-        }
+        
     }
-
-
+    if(n==1)
+    {
+        printf("neither prime nor non prime");
+    }
+    else if(f==1)
+    {
+       printf("not prime"); 
+    }
+    else{
+        printf("prime");
+    }
 
     return 0;
 }

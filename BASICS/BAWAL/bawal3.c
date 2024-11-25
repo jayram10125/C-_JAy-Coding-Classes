@@ -2,6 +2,19 @@
 #include<stdio.h>  
  int main()    
 {    
-    if(printf("hello world")){}    
-return 0;  
+     int a,p;
+     printf("enter a : ");
+     if(scanf("%d",&a))
+     {
+        printf("hii");
+     }
+     else
+     {
+        printf("hello");
+     }
+
+     
+        
+     
+    return 0;  
 }   

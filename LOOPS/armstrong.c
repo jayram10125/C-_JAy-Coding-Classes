@@ -16,10 +16,10 @@ int main()
     }
     if(sum==p)
     {
-        printf("armstrong");
+        printf("This is an armstrong number");
     }
     else{
-        printf("not");
+        printf("This is not an armstrong number");
     }
     return 0;
 }

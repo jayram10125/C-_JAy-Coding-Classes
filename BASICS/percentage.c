@@ -14,7 +14,7 @@ int main()
     printf("enter science marks : ");
     scanf("%f",&s);
 
-    per=(h+e+m+s+c)/300*100;
+    per=(h+e+m+s+c)/500*100;
 
     printf("per=%.1f",per);
 
